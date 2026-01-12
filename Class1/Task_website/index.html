@@ -1,0 +1,127 @@
+<!-- Tacoo Business Website (Task) -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Rahul Kumar Rohilla" />
+    <meta
+      name="description"
+      content="Welcome to Tacooooo Calling, your favorite taco restaurant!"
+    />
+    <title>Tacooooo Calling</title>
+    <link rel="icon" type="png" href="./images/favicon.ico" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tacooooo Calling</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="about.html">About Us</a>  </li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="Store_Time.html">Store Timing</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+      
+        <article id="home">
+          <!-- why we use article tag ? because it is semantically correct for a self-contained piece of content -->
+         <h2>Welcome to Tacooooo Calling!</h2>
+         <p>
+         At Tacooooo Calling, we are passionate about serving delicious and
+         authentic tacos made with the freshest ingredients. Our mission is to
+         provide a memorable dining experience for taco lovers everywhere.
+         </p>
+         <p>
+         Founded by Rakesh Patil, Tacooooo Calling has quickly become a beloved
+         spot for taco enthusiasts. We pride ourselves on our diverse menu,
+         friendly service, and vibrant atmosphere.
+         </p>
+         <p>
+         Thank you for choosing Tacooooo Calling. We look forward to serving you
+         soon!
+         </p>
+
+         <!-- Images -->
+          <p>
+          <figure> 
+         <img src=" ./images/tacos_and_drink_400x267.png " alt=" img of tacos and drink " width="350" height="267"/>
+         <img src="./images/tacos_close_up_400x260.png" alt=" img of tacos close up " width="350" height="267"/>
+         </figure>
+         </p>
+         
+         <hr>
+
+         <!-- Menu Section  -->
+          <section id="menu">
+            <h2>Our Menu</h2>
+
+            <table border="2">
+              <caption>Available Items</caption>
+
+              <thead>
+                <tr>
+                  <th>Item</th>
+                  <th>Qty</th>
+                  <th>Price</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <th rowspan="3">Crunchy</th>
+                  <!-- rowspan, means this cell spans 3 rows, so it will be repeated for each row -->
+                  <td>1 Pc</td>
+                  <!-- to put rppee icon we can use instead of $ we can -->
+                  <td>&#8377; 1.50</td>
+                </tr>
+                <tr>
+                  <td>2 Pc</td>
+                  <td>&#8377; 2.50</td>
+                </tr>
+                <tr>
+                  <td>3 Pc</td>
+                  <td>&#8377; 3.50</td>
+                </tr>
+
+                <tr>
+                  <th rowspan="3">Soft</th>
+                  <td>1 Pc</td>
+                  <td>&#8377; 2.00</td>
+                </tr>
+                <tr>
+                  <td>2 Pc</td>
+                  <td>&#8377; 3.50</td>
+                </tr>
+                <tr>
+                  <td>3 Pc</td>
+                  <td>&#8377; 4.50</td>
+                </tr>
+
+                <tfoot>
+                  <tr>
+                    <td colspan="3">Chips and Salsa &#8377; 2</td>
+                  </tr>
+                </tfoot>
+              </tbody>
+            </table>
+
+            <p><a href="#">Back to Top</a></p>
+          </section>
+
+          <hr>
+
+          <!-- footer -->
+         <footer>
+          <p>&copy; 2024 Tacooooo Calling. All rights reserved.</p>
+         </footer>
+
+
+        </article>
+  </body>
+</html>

@@ -1,0 +1,448 @@
+<!-- ch_22 BLOG My Goals of The Year -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Suraj Thirunavukkarasu" />
+    <meta
+      name="description"
+      content="This web page is about My Goals of The Year"
+    />
+    <title>ch_22 HOME- BLOG My Goals of The Year</title>
+    <link
+      rel="icon"
+      href="./images/html_logo_300x300.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>My Goals of The Year</h1>
+      <nav>
+        <h2>Primary Navigation</h2>
+        <ul>
+          <li><a href="#html">Learning HTML</a></li>
+          <li><a href="#vacation">Planning Vacation</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+    <p>
+      <a href="#fish">DOWN</a>
+    </p>
+
+    <main>
+      <article id="html">
+        <h2>I'm Ready To Learn HTML</h2>
+        <p>This is my first web page</p>
+
+        <section>
+          <h3>HTML5</h3>
+          <figure>
+            <img
+              src="./images/html_logo_300x300.png"
+              alt="HTML5 Logo"
+              title="I am learning HTML5"
+              width="300"
+              height="300"
+              loading="eager"
+            />
+            <figcaption>HTML5 Logo</figcaption>
+          </figure>
+          <figure>
+            <figcaption>Example of HTML5 Code</figcaption>
+            <p>
+              <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+            </p>
+          </figure>
+        </section>
+
+        <section>
+          <h3>My Daily Schedule</h3>
+          <p>Let me tell you how:</p>
+          <ol>
+            <li>... I learn more about web development.</li>
+            <li>... I plan out my schedule.</li>
+            <li>
+              ... I use resources from
+
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+                <abbr title="mozilla developer network">MDN</abbr></a
+              >
+            </li>
+          </ol>
+
+          <aside>
+            <details>
+              <summary>
+                Guess the <mark>number of hours</mark> I code per day ?
+              </summary>
+              <p>
+                I start at <time datetime="08:00">8</time> am and I write code
+                for <time datetime="PT3H">3</time> hours every morning.
+              </p>
+            </details>
+
+            <br />
+
+            <table>
+              <caption>
+                My Daily Schedule
+              </caption>
+              <thead>
+                <tr>
+                  <th>&nbsp;</th>
+                  <th scope="col">Time</th>
+                  <th scope="col">Activity</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Morning</th>
+                  <td>
+                    <time datetime="08:00">8</time> am -
+                    <time datetime="11:00">11</time> am
+                  </td>
+                  <td>Write Code</td>
+                </tr>
+                <tr>
+                  <th scope="row">Break</th>
+                  <td>
+                    <time datetime="11:00">11</time> am -
+                    <time datetime="12:00">12</time> pm
+                  </td>
+                  <td>Eat Lunch</td>
+                </tr>
+                <tr>
+                  <th scope="row">Evening</th>
+                  <td rowspan="2">All Other Times</td>
+                  <td>Free Time</td>
+                </tr>
+                <tr>
+                  <th scope="row">Night</th>
+
+                  <td>Sleep</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="3">
+                    And that's what I do every day. 5 days a week. Just eat,
+                    sleep, code ... and recharge.
+                  </td>
+                </tr>
+              </tfoot>
+            </table>
+          </aside>
+        </section>
+      </article>
+
+      <article id="vacation">
+        <h2>I'AM Also Planning A Vacation</h2>
+        <p>I've been working hard and <em>really need a getaway</em>.</p>
+        <p>
+          I live in <abbr title="India">IN</abbr>, so I want to visit a beach
+          overseas.
+        </p>
+
+        <section>
+          <h3>Places I Would Like To Visit</h3>
+          <ul>
+            <li>
+              <p>I've heard good things about the Caribbean</p>
+              <figure>
+                <img
+                  src="./images/caribbean.jpg"
+                  alt="Caribbean Island"
+                  title="I want to visit a Caribbean Island"
+                  width="400"
+                  height="225"
+                  loading="lazy"
+                />
+                <figcaption>Caribbean Beach Getaway</figcaption>
+              </figure>
+            </li>
+
+            <li>
+              <p>I've heard good things about going here</p>
+              <address>
+                Margaritaville Island Reserve Riviera Cancuin <br />
+                Bahia Petempich Puerto Morelos, Mexio <br />
+                Colina Morelos, Mexico 77580
+              </address>
+              <figure>
+                <img
+                  src="./images/vacation.jpg"
+                  alt="Cancuin Vacation"
+                  width="400"
+                  height="267"
+                  title="Its's 5 o' clock somewhere"
+                  loading="lazy"
+                />
+                <figcaption>A Cancuin Vacation Image</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Places I want to Avoid</h3>
+          <dl>
+            <dt>North Pole</dt>
+            <dd>I hear this is <strong>cold</strong>.</dd>
+
+            <dt>South Pole</dt>
+            <dd>This is also cold.</dd>
+
+            <dt>Mountain Tops</dt>
+            <dd>These are also cold.</dd>
+          </dl>
+        </section>
+      </article>
+
+      <article id="contact">
+        <h2>Contact Me</h2>
+        <p>I'd really like to hear from you!</p>
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Personal Info</legend>
+
+            <!-- input for first name -->
+            <p>
+              <label for="firstName">First Name: </label>
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="Enter First Name Here"
+                autocomplete="on"
+                autofocus
+                required
+              />
+            </p>
+
+            <!-- input for last name -->
+            <p>
+              <label for="lastName">Last Name: </label>
+              <input
+                type="text"
+                name="lastName"
+                id="lastName"
+                placeholder="Enter Last Name Here"
+                autocomplete="on"
+                required
+              />
+            </p>
+
+            <!-- input for password -->
+            <p>
+              <label for="password">Password: </label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Your Secret"
+                required
+              />
+            </p>
+
+            <!-- input for phone -->
+            <p>
+              <label for="phone">Phone: </label>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="55555-55555"
+                pattern="{0-9}{5}-{0-9}{5}"
+                required
+              />
+            </p>
+
+            <!-- input for decade -->
+            <label for="decade">Favourite Decade: </label>
+
+            <input
+              type="number"
+              name="decade"
+              id="decade"
+              min="1950"
+              max="2025"
+              step="1"
+              value="1976"
+            />
+            <!--input for favourite coffee -->
+            <p>
+              <label for="coffee">Favourite Coffee: </label>
+              <br />
+              <select name="coffee" id="coffee" multiple size="5">
+                <optgroup label="With Milk">
+                  <option value="latte">Dark Brown</option>
+                  <option value="cappuccion">Light Brown</option>
+                  <option value="amerackno">Medium Brown</option>
+                </optgroup>
+                <optgroup label="Without Milk">
+                  <option value="espresso">Black</option>
+                  <option value="black">No Color</option>
+                </optgroup>
+                <optgroup label="With Extras">
+                  <option value="mocha">With Chocolate</option>
+                  <option value="frappe">With Ice Cream</option>
+                </optgroup>
+              </select>
+              <input
+                type="color"
+                name="coffee"
+                id="coffee"
+                value="#6f4e37"
+                multiple
+                size="5"
+              />
+            </p>
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>Submit Form</legend>
+            <p>
+              <input
+                type="submit"
+                name="food"
+                id="tacos"
+                value="Submit Form"
+                checked="true"
+              />
+            </p>
+
+            <p>
+              <input type="checkbox" name="subscribe" id="subscribe" checked />
+              <label for="subscribe">Subscribe to Newsletter</label>
+            </p>
+            <p>
+              <input
+                type="radio"
+                name="contactMethod"
+                id="emailContact"
+                value="email"
+                checked
+              />
+              <label for="emailContact">Contact Me by Email</label>
+
+              <input
+                type="radio"
+                name="contactMethod"
+                id="phoneContact"
+                value="phone"
+              />
+              <label for="phoneContact">Contact Me by Phone</label>
+            </p>
+            <p>
+              <label for="comments">Comments: </label>
+              <br />
+              <textarea
+                name="comments"
+                id="comments"
+                rows="5"
+                cols="40"
+                placeholder="Enter Your Comments Here"
+              ></textarea>
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Do you have pets ?</legend>
+            <p>
+              <label for="pets">dog: </label>
+            </p>
+            <p>
+              <input
+                type="checkbox"
+                name="pets"
+                id="dog"
+                min="1"
+                max="10"
+                step="1"
+                value="dog"
+              />
+              <label for="dog">Dog</label>
+            </p>
+            <p>
+              <input
+                type="checkbox"
+                name="pets"
+                id="cat"
+                min="0"
+                max="10"
+                step="1"
+                value="cat"
+              />
+              <label for="cat">Cat</label>
+            </p>
+            <p>
+              <input
+                type="checkbox"
+                name="pets"
+                id="fish"
+                min="0"
+                max="10"
+                step="1"
+                value="fish"
+              />
+              <label for="fish">Fish</label>
+            </p>
+            <p>
+              <input
+                type="checkbox"
+                name="pets"
+                id="other"
+                min="0"
+                max="10"
+                step="1"
+                value="other"
+              />
+              <label for="other">Other</label>
+            </p>
+            <input type="hidden" name="blogID" value="22" />
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>send me a note!</legend>
+            <label for="massage">Your Message:</label>
+            <br />
+            <textarea
+              name="massage"
+              id="massage"
+              rows="5"
+              cols="40"
+              placeholder="Enter Your Message Here"
+            ></textarea>
+          </fieldset>
+
+          <br />
+          <button type="submit">Get sudmit</button>
+          <button
+            type="submit"
+            formaction="https://httpbin.org/post"
+            formmethod="post"
+          >
+            Post sudmit
+          </button>
+          <input type="reset" value="Reset Form" />
+        </form>
+      </article>
+    </main>
+    <footer>
+      <p>
+        &lt; &lt; &lt;!!!! &copy; 2026
+        <a href="./about.html">Rahul K.R.</a>!!!!&gt; &gt; &gt;
+      </p>
+      <br />
+      <p>
+        <a href="#">TOP</a>
+      </p>
+    </footer>
+  </body>
+</html>

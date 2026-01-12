@@ -1,0 +1,147 @@
+<!-- ch_17 forms -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ch_17 forms</title>
+    <style>
+      body {
+        background-color: #b6f30f;
+        font-family: Arial, sans-serif;
+
+        color: #e01a1a;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      Student registeration form
+      <style>
+        body {
+          font-family: Arial, sans-serif;
+        }
+        h1 {
+          color: #e01a1a;
+        }
+      </style>
+    </h1>
+    <!-- horizantal line === horizantal rule === hr + enter/tab -->
+    <hr />
+    <!-- GET  http://httpbin.org/get
+           POST http://httpbin.org/post -->
+    <form action="http://httpbin.org/post" method="post">
+      <!-- input for student name -->
+      <input type="text" placeholder="Hi bitch !!!!" /><br /><br />
+      <hr />
+      <!-- input for first name -->
+      <label for="fname">First name:</label><br />
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        placeholder="!!!!!!!!!!"
+      /><br /><br />
+      <hr />
+      <!-- input for last name -->
+      <label for="lname">Last name:</label><br />
+      <input
+        type="text"
+        id="lname"
+        name="lname"
+        placeholder="@@@@@@@"
+      /><br /><br />
+      <hr />
+      <!-- input for age -->
+      <label for="age">How old you are</label><br />
+      <input
+        type="number"
+        id="age"
+        name="age"
+        placeholder="$$$$$$$"
+        style="
+          display: block;
+          background-color: #0f88f3;
+          border: 1px solid #0f88f3;
+          color: white;
+        "
+      /><br /><br />
+      <hr />
+      <!-- input for email -->
+      <label for="email">Enter your mail bitch</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="#######"
+      /><br /><br />
+      <hr />
+      <!-- input for password -->
+      <label for="password">Password:</label><br />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="enter krr!!"
+      /><br /><br />
+      <hr />
+
+      <!-- input for gender -->
+      <label for="gender">Gender:</label><br />
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label><br />
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label><br />
+      <input type="radio" id="other" name="gender" value="other" />
+      <label for="other">Other</label><br /><br />
+      <hr />
+
+      <!-- input for favourite food -->
+      <label for="food">Favourite food:</label><br />
+      <input type="checkbox" id="pizza" name="food" value="pizza" />
+      <label for="pizza">Pizza</label><br />
+      <input type="checkbox" id="burger" name="food" value="burger" />
+      <label for="burger">Burger</label><br />
+      <input type="checkbox" id="pasta" name="food" value="pasta" />
+      <label for="pasta">Pasta</label><br />
+      <label for="fried chicken"></label>
+      <input
+        type="checkbox"
+        id="fried chicken"
+        name="food"
+        value="fried chicken"
+      />
+
+      <label for="fried chicken">Fried Chicken</label><br /><br />
+      <hr />
+      <!-- submit butten -->
+
+      <input type="submit" value="Submit" placeholder="click HyperText" />
+
+      <br /><br />
+      <hr />
+      <!-- dropdown -->
+      <label for="cars">Choose a car:</label> <br />
+      <select id="cars" multiple="multiple" size="1" limit="1">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option></select
+      ><br /><br />
+      <hr />
+      <!-- input for address -->
+      <label for="address">Address:</label><br />
+      <textarea
+        id="address"
+        name="address"
+        rows="4"
+        cols="50"
+        placeholder="Write content bitch!!!!"
+      ></textarea
+      ><br />
+      <hr />
+      <!-- butten for reset -->
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>

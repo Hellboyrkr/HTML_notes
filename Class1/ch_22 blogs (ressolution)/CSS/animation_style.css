@@ -1,0 +1,28 @@
+/* ch 22 blogs (ressolution) */
+/* Animation styles for the new year goals page */
+html {
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(54, 142, 209);
+  color: rgb(105, 63, 0);
+}
+
+/* style for table */
+table,
+tr,
+td,
+th,
+caption {
+  border: 1px solid rgb(195, 236, 11);
+  font-family: "Courier New", Courier, monospace;
+  border-collapse: collapse;
+  padding: 0.5em;
+  /* here em refers to the unit of measurement for padding, and rem refers to the root element's font size ,.example: 1rem = 16px and 1em = 20px */
+}
+
+/* style for links */
+a {
+  color: rgba(73, 71, 32, 0.644);
+}
